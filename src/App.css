@@ -1,0 +1,60 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: whitesmoke;
+}
+
+#sheet {
+  width: 330px;
+
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#piano {
+  height:10em;
+  width: 70%;
+
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#piano > ul {
+  height:100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+#piano > ul > li {
+  height: 100%;
+  width: 30px;
+
+  position: relative;
+  margin-right: 2px;
+  float: left;
+
+  background: white;
+  border: 1px solid;
+  list-style: none;
+}
+
+#piano > ul > li > div {
+  height: 70%;
+  width: 70%;
+
+  position: absolute;
+  right: -12px;
+  top: -1px;
+  z-index: 10;
+
+  background: black;
+  border: 1px solid;
+}
